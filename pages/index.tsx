@@ -9,7 +9,12 @@ export default function Home()  {
           Next.js with Recoil
         </span>
       </div>
-      <Link href="/todo"><a>To Todo</a></Link>
+      <div>
+        <Link href="/todo"><a>To Todo</a></Link>
+      </div>
+      <div>
+        <Link href="/asynchronous"><a>To Asynchronous</a></Link>
+      </div>
     </div>
   );
 }
